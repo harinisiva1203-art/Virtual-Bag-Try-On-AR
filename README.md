@@ -2,72 +2,76 @@
 
 Virtual Bag Try-On AR is an Augmented Reality experience developed using Snap Lens Studio and JavaScript.
 
-The Lens allows users to try on two different virtual bags using body and shoulder tracking. Users can tap the screen to switch between the available bags.
+The Lens allows users to virtually try on two different bags in AR. The bags are positioned using body and shoulder tracking, and users can tap the screen to switch between the available bags.
 
-## 🎮 Experience
+## 🎮 Try the Lens
 
-The Lens provides a virtual bag try-on experience where the selected bag is positioned around the user's shoulder area.
+[Open Virtual Bag Try-On on Snapchat](https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=1921ed44a95d48b5b2bc657fc773aef2&metadata=01)
 
-- 👜 Try on two different virtual bags.
-- 👤 Body tracking detects the user's body.
-- 🎯 Shoulder tracking is used for bag positioning.
-- 👆 Tap the screen to switch between the two bags.
-- 🔄 Switch between Bag 1 and Bag 2 during the experience.
-- 📱 Experience the virtual try-on directly through Snapchat AR.
+Scan the Snapcode below using Snapchat to try the Lens.
+
+![Virtual Bag Try-On Snapcode](snapcode.png)
+
+## 👜 About the Experience
+
+This project demonstrates a virtual product try-on experience using Augmented Reality.
+
+The Lens uses body tracking and shoulder tracking to position the virtual bag on the user's body. Two different bags are available, and the user can tap the screen to switch between them.
 
 ## ✨ Features
 
-- Augmented Reality virtual try-on
-- Body tracking
-- Shoulder tracking
-- Two virtual bag models
-- Tap-based bag switching
-- Real-time AR bag positioning
-- 3D asset integration
-- Interactive AR experience
-- Custom visual assets
-- Snapchat Lens integration
+- 👜 Virtual bag try-on experience
+- 👤 Body tracking
+- 🎯 Shoulder tracking
+- 🔄 Two different virtual bags
+- 👆 Tap to switch between bags
+- 📱 Snapchat AR Lens experience
+- 💻 JavaScript-based interaction
+- 🎨 Custom 3D bag assets
+- 🌐 Real-time AR placement
+
+## 🕹️ How to Use
+
+1. Open the Virtual Bag Try-On Lens on Snapchat.
+2. Allow camera access if required.
+3. Position yourself in front of the camera.
+4. The Lens detects the user's body and shoulders.
+5. The virtual bag is positioned on the shoulder area.
+6. Tap the screen to switch between the two available bags.
+7. Try different bags directly through the AR experience.
 
 ## 🛠️ Technologies Used
 
-| **Technology** | **Purpose** |
-| ------------------------ | ------------------------------------------- |
-| Snap Lens Studio | AR development and scene creation |
+| Technology | Purpose |
+|---|---|
+| Snap Lens Studio | AR development and Lens creation |
 | JavaScript | Bag switching and interaction logic |
-| Body Tracking | Body detection and tracking |
-| Shoulder Tracking | Shoulder-based bag positioning |
+| Body Tracking | Detecting the user's body |
+| Shoulder Tracking | Positioning the virtual bag |
 | 3D Models | Virtual bag assets |
-| Touch Events | Bag switching interaction |
-| Custom Assets | Bags, environment and visual elements |
+| Touch Interaction | Switching between bags |
 
 ## 🧠 JavaScript Implementation
 
-The interaction is handled through a JavaScript script responsible for switching between the available virtual bags.
+The project uses JavaScript to control the bag switching interaction.
 
-| **Script** | **Responsibility** |
-| ------------------------ | ------------------------------------------- |
+| Script | Responsibility |
+|---|---|
 | `BagSwitcher.js.js` | Handles switching between the two virtual bags |
 
-## 📁 Project Structure
+## 🎯 AR Tracking
+
+The experience uses body and shoulder tracking to create a more natural virtual try-on.
 
 ```text
-Virtual-Bag-Try-On-AR/
-│
-├── Assets/
-│   ├── BagSwitcher.js.js
-│   ├── Bag1.glb
-│   ├── Bag2.glb
-│   ├── 3D Body Tracking.bodyTracking3D
-│   ├── Scene.scene
-│   ├── Render Target.renderTarget
-│   ├── Echopark.hdr
-│   ├── Device Camera Texture.deviceCameraTexture
-│   └── 3D Assets & Materials
-│
-├── Workspaces/
-├── Bag_try.esproj
-├── icon.png
-├── jsconfig.json
-├── AGENTS.md
-├── preview.mp4
-└── .gitignore
+User
+  ↓
+Body Tracking
+  ↓
+Shoulder Tracking
+  ↓
+Detect Shoulder Position
+  ↓
+Position Virtual Bag
+  ↓
+AR Try-On Experience
