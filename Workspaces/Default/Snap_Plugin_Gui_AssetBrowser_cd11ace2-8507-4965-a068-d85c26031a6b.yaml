@@ -1,0 +1,26 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 20
+    values:
+      - 3D Body Tracking.bodyTracking3D
+      - Bag1.glb/.hidden
+      - Bag1.glb/.hidden/Material 1
+      - Bag1.glb/Bag1
+      - Bag1.glb/Materials
+      - Bag1.glb/Materials/Material 1
+      - Bag1.glb/Meshes
+      - Bag1.glb/Meshes/geometry_0
+      - Bag1.glb/Textures
+      - Bag1.glb/Textures/texture
+      - Bag2.glb/.hidden
+      - Bag2.glb/.hidden/Material 1
+      - Bag2.glb/Bag2
+      - Bag2.glb/Materials
+      - Bag2.glb/Materials/Material 1
+      - Bag2.glb/Meshes
+      - Bag2.glb/Meshes/geometry_0
+      - Bag2.glb/Textures
+      - Bag2.glb/Textures/texture
+      - BagSwitcher.js.js
+  options: 4
